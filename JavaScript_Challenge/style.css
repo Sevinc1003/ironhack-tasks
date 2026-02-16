@@ -1,0 +1,31 @@
+
+#display{
+    width: 200px;
+
+}
+
+
+.container{
+    width: 320px;
+    height: 320px;
+    background-color: blueviolet;
+    gap: 50px;
+}
+
+.buttons{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+    align-items: center;
+    justify-items: center;
+    background-color: aqua;
+    gap: 10px;
+}
+
+button{
+    background-color: rgb(234, 194, 194);
+    width: 50px;
+    height: 50px;
+}
